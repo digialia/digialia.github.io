@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota2Analytics</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+            font-family: 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+            min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+    header {
+            text-align: center;
+      padding: 60px 20px 30px;
+}
+    header h1 {
+            font-size: 3rem;
+      color: #e84142;
+            letter-spacing: 2px;
+}
+    header h1 span { color: #58a6ff; }
+    header p {
+            font-size: 1.2rem;
+      color: #8b949e;
+      margin-top: 12px;
+}
+    .badge {
+            display: inline-block;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 20px;
+      padding: 6px 18px;
+      font-size: 0.9rem;
+      color: #58a6ff;
+      margin-top: 20px;
+    }
+    .features {
+            display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      max-width: 900px;
+    }
+    .card {
+            background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 24px;
+      width: 260px;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: #58a6ff; }
+    .card .icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .card h3 { font-size: 1.1rem; margin-bottom: 8px; color: #e6edf3; }
+        .card p { font-size: 0.9rem; color: #8b949e; line-height: 1.5; }
+    footer {
+            padding: 30px;
+      color: #484f58;
+      font-size: 0.85rem;
+      text-align: center;
+}
+    .coming-soon {
+            background: #e84142;
+            color: white;
+      padding: 14px 36px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 30px;
+      display: inline-block;
+      letter-spacing: 1px;
+}
+  </style>
+    </head>
+    <body>
+      <header>
+        <h1>Dota2<span>Analytics</span></h1>
+        <p>Advanced statistics and insights for Dota 2 players</p>
+        <div class="badge">Coming Soon</div>
+        <br>
+        <span class="coming-soon">Stay Tuned</span>
+      </header>
+      <div class="features">
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Match Analytics</h3>
+          <p>Deep dive into your match history with advanced filters and visualizations.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏆</div>
+          <h3>Hero Statistics</h3>
+          <p>Win rates, pick rates and performance trends for every hero.</p>
+    </div>
+    <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Player Insights</h3>
+          <p>Track your progress, identify weaknesses and improve your game.</p>
+        </div>
+      </div>
+      <footer>
+        &copy; 2026 Dota2Analytics &mdash; Built with passion for the Dota 2 community
+      </footer>
+    </body>
+    </html>
